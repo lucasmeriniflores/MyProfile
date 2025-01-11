@@ -13,6 +13,8 @@ Escolha o idioma para visualizar o conteúdo do projeto:
 
 ## 🇧🇷 Português
 
+<a name="português"></a>
+
 ### 💻 Sobre o Projeto
 O MyProfile é um portfólio responsivo que visa fornecer uma maneira elegante de mostrar suas habilidades, projetos e informações de contato. Ele contém seções de **certificados**, **contato** e **informações pessoais**.
 
@@ -40,6 +42,8 @@ O MyProfile é um portfólio responsivo que visa fornecer uma maneira elegante d
 ---
 
 ## 🇺🇸 English
+
+<a name="english"></a>
 
 ### 💻 About the Project
 MyProfile is a simple and beautiful portfolio to showcase your skills and projects. It's designed to show who you are, what you do, and what you've accomplished on your professional journey. 🌟
@@ -70,5 +74,5 @@ MyProfile is a simple and beautiful portfolio to showcase your skills and projec
 ## 📬 Contato | Contact
 
 - Email: contactnevasca@gmail.com
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/lucas-merini-flores-b85197300/)
-- GitHub: [Seu GitHub](https://github.com/lucasmeriniflores)
+- LinkedIn: [Lucas Merini Flores](https://www.linkedin.com/in/lucas-merini-flores-b85197300/)
+- GitHub: [nevasca dev </>](https://github.com/lucasmeriniflores)
