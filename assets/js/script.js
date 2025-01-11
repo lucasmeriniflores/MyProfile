@@ -86,3 +86,35 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// Scroll Suave
+document.addEventListener('DOMContentLoaded', function () {
+    window.addEventListener('wheel', function (e) {
+        e.preventDefault();
+        window.scrollBy({
+            top: e.deltaY,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }, { passive: false });
+});
+
+// Botão de rolar para o topo
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+// Mostra o botão suavemente quando a rolagem for para baixo
+window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollToTopBtn.classList.add("show"); // Adiciona a classe "show" para exibir o botão
+    } else {
+        scrollToTopBtn.classList.remove("show"); // Remove a classe "show" para esconder o botão
+    }
+};
+
+// Faz rolar até o topo quando o botão for clicado
+scrollToTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Rolagem suave
+    });
+});
